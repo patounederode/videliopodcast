@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "young-serif";
+    src: url(./font/YoungSerif-Regular.ttf);
+}
+
+
+:root {
+	--font-color: #FDF1D7;
+	--text: #f5f5f5;
+    --accent: #8b2000;
+	--range: #AF2900;
+    --border: rgba(255, 255, 255, 0.3);
+	--background: #0b0f0b;
+    --dark-text: #111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus {
+  outline: 5px solid var(--font-color);
+}
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	background-color: var(--background);
+	font-family: 'Inter', 'Arial Narrow Bold', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 100;
+	font-family: "young-serif", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 6em;
+}
+
+h2 {
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 3em;
+}
+
+h4 {
+	font-size: 3em;
+}
+
+h5 {
+	font-size: 2em;
+}
+
+h6 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 1.3em;
+	font-family: Inter, arial, sans-serif;
+	line-height: 145%;
+}
+
+button {
+	display: block;
+	text-align: center;
+	border: none;
+	color: var(--primary-color);
+	outline: 2px var(--primary-color) solid;
+	border-radius: 5px;
+	padding: 10px 25px;
+	margin: 10px 0;
+	background: transparent;
+	font-size: 1em;
+	:hover {
+		cursor: pointer;
+	}
+}
